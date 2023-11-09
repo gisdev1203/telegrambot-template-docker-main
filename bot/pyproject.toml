@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "telegrambot-template-docker"
+version = "0.1.0"
+description = ""
+authors = ["Akmalov <artur@akmalov.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "*"
+python-dotenv = "^0.19.2"
+loguru = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
